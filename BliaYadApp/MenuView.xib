@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuView">
+            <connections>
+                <outlet property="menuBasicView" destination="i5M-Pr-FkT" id="0iE-jf-SVf"/>
+                <outlet property="menuHeaderView" destination="fCV-dG-eIA" id="czc-kv-YST"/>
+                <outlet property="privacyStatementButton" destination="kix-6m-4iu" id="C1f-D9-EIk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="MenuView" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCV-dG-eIA">
+                    <rect key="frame" x="30" y="108" width="540" height="2"/>
+                    <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BLYAYADLogo" translatesAutoresizingMaskIntoConstraints="NO" id="SJB-um-J5F">
+                    <rect key="frame" x="270" y="36" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="SJB-um-J5F" secondAttribute="height" multiplier="1:1" id="jci-RY-lhI"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kix-6m-4iu">
+                    <rect key="frame" x="150" y="582" width="300" height="18"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <connections>
+                        <action selector="onClickPrivacyStatementBtn:" destination="-1" eventType="touchUpInside" id="hUe-74-gnO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="fCV-dG-eIA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0i6-BE-8uY"/>
+                <constraint firstItem="SJB-um-J5F" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2Cs-yk-lzj"/>
+                <constraint firstItem="SJB-um-J5F" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/10" id="90U-i9-AdA"/>
+                <constraint firstItem="kix-6m-4iu" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="1/2" id="9oz-YI-4cN"/>
+                <constraint firstItem="fCV-dG-eIA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="18/100" id="A7s-JR-TRZ"/>
+                <constraint firstItem="SJB-um-J5F" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="16/100" id="AZs-Ig-CxY"/>
+                <constraint firstItem="fCV-dG-eIA" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/400" id="JJJ-7t-fbt"/>
+                <constraint firstItem="kix-6m-4iu" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="3/100" id="SOt-KC-qy7"/>
+                <constraint firstItem="fCV-dG-eIA" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="9/10" id="WOQ-3x-Gyw"/>
+                <constraint firstItem="kix-6m-4iu" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="YcI-Ds-FZt"/>
+                <constraint firstItem="kix-6m-4iu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mWL-Zr-fwe"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="BLYAYADLogo" width="885" height="885"/>
+    </resources>
+</document>

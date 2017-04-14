@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisteredView">
+            <connections>
+                <outlet property="actionButton" destination="Mc6-t3-oCM" id="qHz-MA-AjJ"/>
+                <outlet property="actionImage" destination="Ihy-Ys-fQQ" id="OJg-uu-zle"/>
+                <outlet property="actionWarnLabel" destination="Xr7-oY-OqK" id="VtC-Sn-5Zu"/>
+                <outlet property="changeActionButton" destination="eJN-sm-394" id="o3l-h9-0jr"/>
+                <outlet property="confirmPasswordText" destination="umX-Gf-Acy" id="a8E-hm-gJG"/>
+                <outlet property="emailAdressText" destination="JY8-36-j6L" id="jVq-Hb-fst"/>
+                <outlet property="passwordText" destination="eOU-py-XFI" id="zUb-hI-17R"/>
+                <outlet property="phoneNumberText" destination="hx3-hd-5xS" id="JZJ-yA-5TK"/>
+                <outlet property="registeredBasicView" destination="i5M-Pr-FkT" id="iAJ-IC-eGM"/>
+                <outlet property="userNameText" destination="YP6-em-pg4" id="mlb-Us-mR6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YP6-em-pg4">
+                    <rect key="frame" x="20" y="265" width="373" height="37"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JY8-36-j6L">
+                    <rect key="frame" x="20" y="309" width="373" height="37"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOU-py-XFI">
+                    <rect key="frame" x="20" y="397" width="373" height="37"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="umX-Gf-Acy">
+                    <rect key="frame" x="20" y="441" width="373" height="36.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hx3-hd-5xS">
+                    <rect key="frame" x="20" y="353" width="373" height="36.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mc6-t3-oCM">
+                    <rect key="frame" x="20" y="515" width="373" height="49"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                    <state key="normal" title="註冊">
+                        <color key="titleColor" red="1" green="0.60784313725490191" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="OnClickActionBtn:" destination="-1" eventType="touchUpInside" id="ZKi-n7-hBU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCG-Bx-1b1">
+                    <rect key="frame" x="356.5" y="25.5" width="37" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OCG-Bx-1b1" secondAttribute="height" multiplier="1:1" id="aJV-Rx-eR2"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="CanccelButton">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickCancelBtn:" destination="-1" eventType="touchUpInside" id="0t3-cX-re5"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RegisteredBuddhaImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ihy-Ys-fQQ">
+                    <rect key="frame" x="102" y="42" width="209.5" height="210"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Ihy-Ys-fQQ" secondAttribute="height" multiplier="1:1" id="ai7-zA-9v0"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJN-sm-394">
+                    <rect key="frame" x="20" y="574" width="373" height="49"/>
+                    <state key="normal" title="已有帳號？按此登入">
+                        <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="OnClickChangeActionBtn:" destination="-1" eventType="touchUpInside" id="cCw-pq-UCd"/>
+                    </connections>
+                </button>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Xr7-oY-OqK">
+                    <rect key="frame" x="67" y="628" width="280" height="98"/>
+                    <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="eOU-py-XFI" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="9/10" id="1ed-m6-FUC"/>
+                <constraint firstItem="OCG-Bx-1b1" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="1/6" id="3jr-aw-m9e"/>
+                <constraint firstItem="JY8-36-j6L" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4yi-Qp-4Ml"/>
+                <constraint firstItem="JY8-36-j6L" firstAttribute="height" secondItem="hx3-hd-5xS" secondAttribute="height" id="6fU-id-BHS"/>
+                <constraint firstItem="OCG-Bx-1b1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="90B-HR-tce"/>
+                <constraint firstItem="YP6-em-pg4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="92H-DP-LJK"/>
+                <constraint firstItem="hx3-hd-5xS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9d4-ip-TFM"/>
+                <constraint firstItem="YP6-em-pg4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9hV-Xt-MUH"/>
+                <constraint firstItem="JY8-36-j6L" firstAttribute="width" secondItem="hx3-hd-5xS" secondAttribute="width" id="ACW-II-htx"/>
+                <constraint firstItem="Mc6-t3-oCM" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/15" id="Arp-IH-A8P"/>
+                <constraint firstItem="JY8-36-j6L" firstAttribute="width" secondItem="YP6-em-pg4" secondAttribute="width" id="CyR-Um-StT"/>
+                <constraint firstItem="umX-Gf-Acy" firstAttribute="width" secondItem="eOU-py-XFI" secondAttribute="width" id="DuJ-F7-yeY"/>
+                <constraint firstItem="OCG-Bx-1b1" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/20" id="GYw-Bq-7aG"/>
+                <constraint firstItem="umX-Gf-Acy" firstAttribute="height" secondItem="eOU-py-XFI" secondAttribute="height" id="KoB-Qc-yu8"/>
+                <constraint firstItem="Xr7-oY-OqK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MB8-gC-vjl"/>
+                <constraint firstItem="eOU-py-XFI" firstAttribute="width" secondItem="hx3-hd-5xS" secondAttribute="width" id="NKb-kR-AMD"/>
+                <constraint firstItem="OCG-Bx-1b1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="NZk-dZ-5kK"/>
+                <constraint firstItem="Ihy-Ys-fQQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ObJ-1S-3yj"/>
+                <constraint firstItem="Mc6-t3-oCM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Oyk-ip-Yib"/>
+                <constraint firstItem="OCG-Bx-1b1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="12/100" id="P3p-2h-aE8"/>
+                <constraint firstItem="YP6-em-pg4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="36/100" id="Q21-Ow-98f"/>
+                <constraint firstItem="eOU-py-XFI" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/20" id="Se5-o1-5qR"/>
+                <constraint firstItem="eJN-sm-394" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="78/100" id="WH2-el-0TG"/>
+                <constraint firstItem="Mc6-t3-oCM" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="9/10" id="X0z-Tg-jXx"/>
+                <constraint firstItem="Xr7-oY-OqK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="92/100" id="cNu-Tj-1dj"/>
+                <constraint firstItem="Xr7-oY-OqK" firstAttribute="width" secondItem="eJN-sm-394" secondAttribute="width" multiplier="3/4" id="cpG-PI-LON"/>
+                <constraint firstItem="Mc6-t3-oCM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="70/100" id="eel-Lj-NRa"/>
+                <constraint firstItem="umX-Gf-Acy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fGN-pQ-Lr1"/>
+                <constraint firstItem="hx3-hd-5xS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="48/100" id="fWF-30-KRU"/>
+                <constraint firstItem="eJN-sm-394" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hgL-vL-1Zk"/>
+                <constraint firstItem="eJN-sm-394" firstAttribute="width" secondItem="Mc6-t3-oCM" secondAttribute="width" id="hyx-N2-QmE"/>
+                <constraint firstItem="eOU-py-XFI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="54/100" id="lcE-RO-FSI"/>
+                <constraint firstItem="eJN-sm-394" firstAttribute="top" secondItem="Mc6-t3-oCM" secondAttribute="bottom" id="mQv-KM-ze6"/>
+                <constraint firstItem="Xr7-oY-OqK" firstAttribute="height" secondItem="eJN-sm-394" secondAttribute="height" multiplier="2" id="nOc-Gu-KtA"/>
+                <constraint firstItem="eOU-py-XFI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ngS-2m-n3U"/>
+                <constraint firstItem="eJN-sm-394" firstAttribute="height" secondItem="Mc6-t3-oCM" secondAttribute="height" id="qnY-cU-MCB"/>
+                <constraint firstItem="umX-Gf-Acy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="60/100" id="tBM-hh-aQ2"/>
+                <constraint firstAttribute="trailing" secondItem="OCG-Bx-1b1" secondAttribute="trailing" multiplier="100/95" id="uKy-Nk-k1N"/>
+                <constraint firstItem="Ihy-Ys-fQQ" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/3.5" id="vrD-MN-wdi"/>
+                <constraint firstItem="eOU-py-XFI" firstAttribute="height" secondItem="hx3-hd-5xS" secondAttribute="height" id="wSM-q1-ElL"/>
+                <constraint firstItem="Ihy-Ys-fQQ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="20/100" id="xUg-Xp-xwn"/>
+                <constraint firstItem="JY8-36-j6L" firstAttribute="height" secondItem="YP6-em-pg4" secondAttribute="height" id="ya0-MZ-GYf"/>
+                <constraint firstItem="JY8-36-j6L" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="42/100" id="zcL-8a-oAa"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="92H-DP-LJK"/>
+                    <exclude reference="3jr-aw-m9e"/>
+                    <exclude reference="90B-HR-tce"/>
+                    <exclude reference="NZk-dZ-5kK"/>
+                    <exclude reference="mQv-KM-ze6"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="CanccelButton" width="42" height="43"/>
+        <image name="RegisteredBuddhaImage" width="600" height="600"/>
+    </resources>
+</document>

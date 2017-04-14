@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1381331CBD16B600D3A385 /* ContactPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1381321CBD16B600D3A385 /* ContactPageView.m */; };
+		CE1381351CBD237E00D3A385 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1381341CBD237E00D3A385 /* MapKit.framework */; };
+		CE3F45C31CB27E0100EFBA71 /* ActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F45C11CB27E0100EFBA71 /* ActivityTableViewCell.m */; };
+		CE3F45C41CB27E0100EFBA71 /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3F45C21CB27E0100EFBA71 /* ActivityTableViewCell.xib */; };
+		CE3F45C81CB2DAEF00EFBA71 /* ActivityInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F45C71CB2DAEF00EFBA71 /* ActivityInformationView.m */; };
+		CE3F45DD1CB2E27F00EFBA71 /* ActivityInformationTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F45DB1CB2E27F00EFBA71 /* ActivityInformationTopCell.m */; };
+		CE3F45DE1CB2E27F00EFBA71 /* ActivityInformationTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3F45DC1CB2E27F00EFBA71 /* ActivityInformationTopCell.xib */; };
+		CE3F45E21CB2E29200EFBA71 /* ActivityInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F45E01CB2E29200EFBA71 /* ActivityInformationCell.m */; };
+		CE3F45E31CB2E29200EFBA71 /* ActivityInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3F45E11CB2E29200EFBA71 /* ActivityInformationCell.xib */; };
+		CE505C5E1CE22EA3006CC572 /* PrivacyStatementView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE505C5C1CE22EA3006CC572 /* PrivacyStatementView.m */; };
+		CE505C5F1CE22EA3006CC572 /* PrivacyStatementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE505C5D1CE22EA3006CC572 /* PrivacyStatementView.xib */; };
+		CE5DF0131CC522CA00DA04B4 /* MyTicketPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DF0121CC522CA00DA04B4 /* MyTicketPageView.m */; };
+		CE660F891C9E9A2700A16E63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE660F881C9E9A2700A16E63 /* main.m */; };
+		CE660F8C1C9E9A2700A16E63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE660F8B1C9E9A2700A16E63 /* AppDelegate.m */; };
+		CE660F8F1C9E9A2700A16E63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE660F8E1C9E9A2700A16E63 /* ViewController.m */; };
+		CE660F921C9E9A2700A16E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE660F901C9E9A2700A16E63 /* Main.storyboard */; };
+		CE660F941C9E9A2700A16E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE660F931C9E9A2700A16E63 /* Assets.xcassets */; };
+		CE660FA21C9E9A2800A16E63 /* BliaYadAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE660FA11C9E9A2800A16E63 /* BliaYadAppTests.m */; };
+		CE660FBC1C9ED80400A16E63 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE660FBA1C9ED80400A16E63 /* MenuView.m */; };
+		CE660FBD1C9ED80400A16E63 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE660FBB1C9ED80400A16E63 /* MenuView.xib */; };
+		CE660FC51C9F10AB00A16E63 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE660FC31C9F10AB00A16E63 /* MenuTableViewCell.m */; };
+		CE660FC61C9F10AB00A16E63 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE660FC41C9F10AB00A16E63 /* MenuTableViewCell.xib */; };
+		CE73AC271CDCFF4B00C59EAF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE73AC261CDCFF4B00C59EAF /* SystemConfiguration.framework */; };
+		CE73AC2A1CDD108B00C59EAF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73AC281CDD108B00C59EAF /* Reachability.m */; };
+		CEC211C61CA7D53800E35C65 /* ActivityPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC211C51CA7D53800E35C65 /* ActivityPageView.m */; };
+		CECD64781CA19EF20082DA02 /* RegisteredView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD64761CA19EF20082DA02 /* RegisteredView.m */; };
+		CECD64791CA19EF20082DA02 /* RegisteredView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECD64771CA19EF20082DA02 /* RegisteredView.xib */; };
+		CEE021A31CCB5EE30058C5C6 /* LocalizationPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE021A51CCB5EE30058C5C6 /* LocalizationPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE660F9E1C9E9A2800A16E63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE660F7C1C9E9A2700A16E63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE660F831C9E9A2700A16E63;
+			remoteInfo = BliaYadApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1381311CBD16B600D3A385 /* ContactPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactPageView.h; sourceTree = "<group>"; };
+		CE1381321CBD16B600D3A385 /* ContactPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactPageView.m; sourceTree = "<group>"; };
+		CE1381341CBD237E00D3A385 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE3F45C01CB27E0100EFBA71 /* ActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewCell.h; sourceTree = "<group>"; };
+		CE3F45C11CB27E0100EFBA71 /* ActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewCell.m; sourceTree = "<group>"; };
+		CE3F45C21CB27E0100EFBA71 /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
+		CE3F45C61CB2DAEF00EFBA71 /* ActivityInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityInformationView.h; sourceTree = "<group>"; };
+		CE3F45C71CB2DAEF00EFBA71 /* ActivityInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityInformationView.m; sourceTree = "<group>"; };
+		CE3F45DA1CB2E27F00EFBA71 /* ActivityInformationTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityInformationTopCell.h; sourceTree = "<group>"; };
+		CE3F45DB1CB2E27F00EFBA71 /* ActivityInformationTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityInformationTopCell.m; sourceTree = "<group>"; };
+		CE3F45DC1CB2E27F00EFBA71 /* ActivityInformationTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityInformationTopCell.xib; sourceTree = "<group>"; };
+		CE3F45DF1CB2E29200EFBA71 /* ActivityInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityInformationCell.h; sourceTree = "<group>"; };
+		CE3F45E01CB2E29200EFBA71 /* ActivityInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityInformationCell.m; sourceTree = "<group>"; };
+		CE3F45E11CB2E29200EFBA71 /* ActivityInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityInformationCell.xib; sourceTree = "<group>"; };
+		CE505C5B1CE22EA3006CC572 /* PrivacyStatementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyStatementView.h; sourceTree = "<group>"; };
+		CE505C5C1CE22EA3006CC572 /* PrivacyStatementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyStatementView.m; sourceTree = "<group>"; };
+		CE505C5D1CE22EA3006CC572 /* PrivacyStatementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivacyStatementView.xib; sourceTree = "<group>"; };
+		CE5DF0111CC522CA00DA04B4 /* MyTicketPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTicketPageView.h; sourceTree = "<group>"; };
+		CE5DF0121CC522CA00DA04B4 /* MyTicketPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTicketPageView.m; sourceTree = "<group>"; };
+		CE660F841C9E9A2700A16E63 /* BliaYadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BliaYadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE660F881C9E9A2700A16E63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE660F8A1C9E9A2700A16E63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE660F8B1C9E9A2700A16E63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE660F8D1C9E9A2700A16E63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE660F8E1C9E9A2700A16E63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE660F911C9E9A2700A16E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE660F931C9E9A2700A16E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE660F981C9E9A2700A16E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE660F9D1C9E9A2800A16E63 /* BliaYadAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BliaYadAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE660FA11C9E9A2800A16E63 /* BliaYadAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BliaYadAppTests.m; sourceTree = "<group>"; };
+		CE660FA31C9E9A2800A16E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE660FB91C9ED80400A16E63 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		CE660FBA1C9ED80400A16E63 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		CE660FBB1C9ED80400A16E63 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		CE660FC21C9F10AB00A16E63 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		CE660FC31C9F10AB00A16E63 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		CE660FC41C9F10AB00A16E63 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		CE73AC261CDCFF4B00C59EAF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE73AC281CDD108B00C59EAF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CE73AC291CDD108B00C59EAF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CEC211C41CA7D53800E35C65 /* ActivityPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityPageView.h; sourceTree = "<group>"; };
+		CEC211C51CA7D53800E35C65 /* ActivityPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityPageView.m; sourceTree = "<group>"; };
+		CECD64751CA19EF20082DA02 /* RegisteredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredView.h; sourceTree = "<group>"; };
+		CECD64761CA19EF20082DA02 /* RegisteredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredView.m; sourceTree = "<group>"; };
+		CECD64771CA19EF20082DA02 /* RegisteredView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisteredView.xib; sourceTree = "<group>"; };
+		CEE021A41CCB5EE30058C5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/LocalizationPlist.strings; sourceTree = "<group>"; };
+		CEE021A61CCB5F030058C5C6 /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/Main.strings"; sourceTree = "<group>"; };
+		CEE021A81CCB5F030058C5C6 /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/LocalizationPlist.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE660F811C9E9A2700A16E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73AC271CDCFF4B00C59EAF /* SystemConfiguration.framework in Frameworks */,
+				CE1381351CBD237E00D3A385 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE660F9A1C9E9A2800A16E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3F45C51CB27E1D00EFBA71 /* ActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				CEC211C41CA7D53800E35C65 /* ActivityPageView.h */,
+				CEC211C51CA7D53800E35C65 /* ActivityPageView.m */,
+				CE3F45C01CB27E0100EFBA71 /* ActivityTableViewCell.h */,
+				CE3F45C11CB27E0100EFBA71 /* ActivityTableViewCell.m */,
+				CE3F45C21CB27E0100EFBA71 /* ActivityTableViewCell.xib */,
+				CE3F45E41CB2E78400EFBA71 /* ActivityInformationView */,
+			);
+			name = ActivityView;
+			sourceTree = "<group>";
+		};
+		CE3F45E41CB2E78400EFBA71 /* ActivityInformationView */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F45C61CB2DAEF00EFBA71 /* ActivityInformationView.h */,
+				CE3F45C71CB2DAEF00EFBA71 /* ActivityInformationView.m */,
+				CE3F45DA1CB2E27F00EFBA71 /* ActivityInformationTopCell.h */,
+				CE3F45DB1CB2E27F00EFBA71 /* ActivityInformationTopCell.m */,
+				CE3F45DC1CB2E27F00EFBA71 /* ActivityInformationTopCell.xib */,
+				CE3F45DF1CB2E29200EFBA71 /* ActivityInformationCell.h */,
+				CE3F45E01CB2E29200EFBA71 /* ActivityInformationCell.m */,
+				CE3F45E11CB2E29200EFBA71 /* ActivityInformationCell.xib */,
+			);
+			name = ActivityInformationView;
+			sourceTree = "<group>";
+		};
+		CE505C601CE22EAD006CC572 /* Privacy Statement */ = {
+			isa = PBXGroup;
+			children = (
+				CE505C5B1CE22EA3006CC572 /* PrivacyStatementView.h */,
+				CE505C5C1CE22EA3006CC572 /* PrivacyStatementView.m */,
+				CE505C5D1CE22EA3006CC572 /* PrivacyStatementView.xib */,
+			);
+			name = "Privacy Statement";
+			sourceTree = "<group>";
+		};
+		CE5DF0141CC522D800DA04B4 /* MyTicketPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DF0111CC522CA00DA04B4 /* MyTicketPageView.h */,
+				CE5DF0121CC522CA00DA04B4 /* MyTicketPageView.m */,
+			);
+			name = MyTicketPage;
+			sourceTree = "<group>";
+		};
+		CE660F7B1C9E9A2700A16E63 = {
+			isa = PBXGroup;
+			children = (
+				CE73AC261CDCFF4B00C59EAF /* SystemConfiguration.framework */,
+				CE1381341CBD237E00D3A385 /* MapKit.framework */,
+				CE660F861C9E9A2700A16E63 /* BliaYadApp */,
+				CE660F851C9E9A2700A16E63 /* Products */,
+				CE660FA01C9E9A2800A16E63 /* BliaYadAppTests */,
+			);
+			sourceTree = "<group>";
+		};
+		CE660F851C9E9A2700A16E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE660F841C9E9A2700A16E63 /* BliaYadApp.app */,
+				CE660F9D1C9E9A2800A16E63 /* BliaYadAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE660F861C9E9A2700A16E63 /* BliaYadApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE660F8A1C9E9A2700A16E63 /* AppDelegate.h */,
+				CE660F8B1C9E9A2700A16E63 /* AppDelegate.m */,
+				CE73AC291CDD108B00C59EAF /* Reachability.h */,
+				CE73AC281CDD108B00C59EAF /* Reachability.m */,
+				CE660F8D1C9E9A2700A16E63 /* ViewController.h */,
+				CE660F8E1C9E9A2700A16E63 /* ViewController.m */,
+				CE3F45C51CB27E1D00EFBA71 /* ActivityView */,
+				CE660FBE1C9EE61C00A16E63 /* MenuView */,
+				CE5DF0141CC522D800DA04B4 /* MyTicketPage */,
+				CEC211C01CA7CA4100E35C65 /* RegisteredView */,
+				CE1381311CBD16B600D3A385 /* ContactPageView.h */,
+				CE1381321CBD16B600D3A385 /* ContactPageView.m */,
+				CE505C601CE22EAD006CC572 /* Privacy Statement */,
+				CE660F901C9E9A2700A16E63 /* Main.storyboard */,
+				CE660F931C9E9A2700A16E63 /* Assets.xcassets */,
+				CEE021A51CCB5EE30058C5C6 /* LocalizationPlist.strings */,
+				CE660F871C9E9A2700A16E63 /* Supporting Files */,
+			);
+			path = BliaYadApp;
+			sourceTree = "<group>";
+		};
+		CE660F871C9E9A2700A16E63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE660F981C9E9A2700A16E63 /* Info.plist */,
+				CE660F881C9E9A2700A16E63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE660FA01C9E9A2800A16E63 /* BliaYadAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE660FA11C9E9A2800A16E63 /* BliaYadAppTests.m */,
+				CE660FA31C9E9A2800A16E63 /* Info.plist */,
+			);
+			path = BliaYadAppTests;
+			sourceTree = "<group>";
+		};
+		CE660FBE1C9EE61C00A16E63 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				CE660FB91C9ED80400A16E63 /* MenuView.h */,
+				CE660FBA1C9ED80400A16E63 /* MenuView.m */,
+				CE660FBB1C9ED80400A16E63 /* MenuView.xib */,
+				CE660FC21C9F10AB00A16E63 /* MenuTableViewCell.h */,
+				CE660FC31C9F10AB00A16E63 /* MenuTableViewCell.m */,
+				CE660FC41C9F10AB00A16E63 /* MenuTableViewCell.xib */,
+			);
+			name = MenuView;
+			sourceTree = "<group>";
+		};
+		CEC211C01CA7CA4100E35C65 /* RegisteredView */ = {
+			isa = PBXGroup;
+			children = (
+				CECD64751CA19EF20082DA02 /* RegisteredView.h */,
+				CECD64761CA19EF20082DA02 /* RegisteredView.m */,
+				CECD64771CA19EF20082DA02 /* RegisteredView.xib */,
+			);
+			name = RegisteredView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE660F831C9E9A2700A16E63 /* BliaYadApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE660FA61C9E9A2800A16E63 /* Build configuration list for PBXNativeTarget "BliaYadApp" */;
+			buildPhases = (
+				CE660F801C9E9A2700A16E63 /* Sources */,
+				CE660F811C9E9A2700A16E63 /* Frameworks */,
+				CE660F821C9E9A2700A16E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BliaYadApp;
+			productName = BliaYadApp;
+			productReference = CE660F841C9E9A2700A16E63 /* BliaYadApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE660F9C1C9E9A2800A16E63 /* BliaYadAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE660FA91C9E9A2800A16E63 /* Build configuration list for PBXNativeTarget "BliaYadAppTests" */;
+			buildPhases = (
+				CE660F991C9E9A2800A16E63 /* Sources */,
+				CE660F9A1C9E9A2800A16E63 /* Frameworks */,
+				CE660F9B1C9E9A2800A16E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE660F9F1C9E9A2800A16E63 /* PBXTargetDependency */,
+			);
+			name = BliaYadAppTests;
+			productName = BliaYadAppTests;
+			productReference = CE660F9D1C9E9A2800A16E63 /* BliaYadAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE660F7C1C9E9A2700A16E63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CE660F831C9E9A2700A16E63 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BD7T5UVA3Y;
+					};
+					CE660F9C1C9E9A2800A16E63 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CE660F831C9E9A2700A16E63;
+					};
+				};
+			};
+			buildConfigurationList = CE660F7F1C9E9A2700A16E63 /* Build configuration list for PBXProject "BliaYadApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant-TW",
+			);
+			mainGroup = CE660F7B1C9E9A2700A16E63;
+			productRefGroup = CE660F851C9E9A2700A16E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE660F831C9E9A2700A16E63 /* BliaYadApp */,
+				CE660F9C1C9E9A2800A16E63 /* BliaYadAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE660F821C9E9A2700A16E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE660FBD1C9ED80400A16E63 /* MenuView.xib in Resources */,
+				CEE021A31CCB5EE30058C5C6 /* LocalizationPlist.strings in Resources */,
+				CE3F45C41CB27E0100EFBA71 /* ActivityTableViewCell.xib in Resources */,
+				CECD64791CA19EF20082DA02 /* RegisteredView.xib in Resources */,
+				CE660F941C9E9A2700A16E63 /* Assets.xcassets in Resources */,
+				CE505C5F1CE22EA3006CC572 /* PrivacyStatementView.xib in Resources */,
+				CE3F45E31CB2E29200EFBA71 /* ActivityInformationCell.xib in Resources */,
+				CE3F45DE1CB2E27F00EFBA71 /* ActivityInformationTopCell.xib in Resources */,
+				CE660FC61C9F10AB00A16E63 /* MenuTableViewCell.xib in Resources */,
+				CE660F921C9E9A2700A16E63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE660F9B1C9E9A2800A16E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE660F801C9E9A2700A16E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1381331CBD16B600D3A385 /* ContactPageView.m in Sources */,
+				CE660F8F1C9E9A2700A16E63 /* ViewController.m in Sources */,
+				CE660FBC1C9ED80400A16E63 /* MenuView.m in Sources */,
+				CE505C5E1CE22EA3006CC572 /* PrivacyStatementView.m in Sources */,
+				CE3F45C81CB2DAEF00EFBA71 /* ActivityInformationView.m in Sources */,
+				CE3F45C31CB27E0100EFBA71 /* ActivityTableViewCell.m in Sources */,
+				CE5DF0131CC522CA00DA04B4 /* MyTicketPageView.m in Sources */,
+				CE660FC51C9F10AB00A16E63 /* MenuTableViewCell.m in Sources */,
+				CE660F8C1C9E9A2700A16E63 /* AppDelegate.m in Sources */,
+				CECD64781CA19EF20082DA02 /* RegisteredView.m in Sources */,
+				CEC211C61CA7D53800E35C65 /* ActivityPageView.m in Sources */,
+				CE73AC2A1CDD108B00C59EAF /* Reachability.m in Sources */,
+				CE660F891C9E9A2700A16E63 /* main.m in Sources */,
+				CE3F45E21CB2E29200EFBA71 /* ActivityInformationCell.m in Sources */,
+				CE3F45DD1CB2E27F00EFBA71 /* ActivityInformationTopCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE660F991C9E9A2800A16E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE660FA21C9E9A2800A16E63 /* BliaYadAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE660F9F1C9E9A2800A16E63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE660F831C9E9A2700A16E63 /* BliaYadApp */;
+			targetProxy = CE660F9E1C9E9A2800A16E63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE660F901C9E9A2700A16E63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE660F911C9E9A2700A16E63 /* Base */,
+				CEE021A61CCB5F030058C5C6 /* zh-Hant-TW */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE021A51CCB5EE30058C5C6 /* LocalizationPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE021A41CCB5EE30058C5C6 /* Base */,
+				CEE021A81CCB5F030058C5C6 /* zh-Hant-TW */,
+			);
+			name = LocalizationPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE660FA41C9E9A2800A16E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE660FA51C9E9A2800A16E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE660FA71C9E9A2800A16E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BUDDHA'S LIGHT INTERNATIONAL ASSOCIATION (BD7T5UVA3Y)";
+				INFOPLIST_FILE = BliaYadApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bliayad.BliaYadApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE660FA81C9E9A2800A16E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BUDDHA'S LIGHT INTERNATIONAL ASSOCIATION (BD7T5UVA3Y)";
+				INFOPLIST_FILE = BliaYadApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bliayad.BliaYadApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE660FAA1C9E9A2800A16E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BliaYadAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josh.BliaYadAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BliaYadApp.app/BliaYadApp";
+			};
+			name = Debug;
+		};
+		CE660FAB1C9E9A2800A16E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BliaYadAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josh.BliaYadAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BliaYadApp.app/BliaYadApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE660F7F1C9E9A2700A16E63 /* Build configuration list for PBXProject "BliaYadApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE660FA41C9E9A2800A16E63 /* Debug */,
+				CE660FA51C9E9A2800A16E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE660FA61C9E9A2800A16E63 /* Build configuration list for PBXNativeTarget "BliaYadApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE660FA71C9E9A2800A16E63 /* Debug */,
+				CE660FA81C9E9A2800A16E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE660FA91C9E9A2800A16E63 /* Build configuration list for PBXNativeTarget "BliaYadAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE660FAA1C9E9A2800A16E63 /* Debug */,
+				CE660FAB1C9E9A2800A16E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE660F7C1C9E9A2700A16E63 /* Project object */;
+}

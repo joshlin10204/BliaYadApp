@@ -1,0 +1,47 @@
+/* 
+  LocalizationPlist.strings
+  BliaYadApp
+
+  Created by User on 2016/4/23.
+  Copyright © 2016年 User. All rights reserved.
+*/
+
+"Home"="首頁";
+"Activity Information"="活動資訊";
+"My Activity QRCode"="我的QRcode";
+"Taiwan YAD HQ Website"="中華佛光青年總團網站";
+"Facebook Fans Group"="FaceBook粉絲團";
+"Contact Us"="聯絡我們";
+
+"Date of Application"="報名日期";
+"Activities introduction"="活動介紹";
+"Main Organizer"="主辦單位";
+"Registration"="報名活動";
+
+"Register"="註冊";
+"Login"="登入";
+"RegisteredBuddhaImage_eg.png"="RegisteredBuddhaImage.png";
+"LogInBuddhaImage_eg.png"="LogInBuddhaImage.png";
+"Already has accunt？\n Please click here to login"="已經有帳號？按此登入";
+"Don't have account yet？\n Please click here to register"="尚未有帳號？按此註冊";
+"Not filled,name"="未填寫，名字";
+"Not filled,email"="未填寫，email";
+"Not filled,password"="未填寫，密碼";
+"Form to be filled"="有表格尚未填寫";
+"The format is incorrect for phone number"="電話號碼 格式不正確";
+"The format of email key in is incorrect"="Email 格式不對";
+"Password length must be from 6 to 12"="密碼長度必須是6到12";
+"Password has to include letters & numbers"="密碼必須包含英文及數字";
+"Password cannot have special characters"="密碼不能有特殊符號";
+"The password key in doesn't match with the previous one"="兩次密碼填寫不相同";
+"Someone already has that username.Try another?"="此帳號已有人使用，請嘗試別的帳號";
+
+
+"Please check your network status"="請檢查您的網路狀況";
+"Note!"="注意";
+"Privacy Statement"="隱私權聲明";
+"Close"="關閉";
+
+"Sponsor :Bureau of Foreign Trade, MOEA"="贊助單位:經濟部國際貿易局";
+
+

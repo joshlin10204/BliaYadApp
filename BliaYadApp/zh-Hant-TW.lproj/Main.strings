@@ -1,0 +1,27 @@
+
+/* Class = "UINavigationItem"; title = "首頁"; ObjectID = "6Gd-vA-FYf"; */
+"6Gd-vA-FYf.title" = "首頁";
+
+/* Class = "UINavigationItem"; title = "活動資訊與報名"; ObjectID = "CPB-AC-Tph"; */
+"CPB-AC-Tph.title" = "活動資訊與報名";
+
+/* Class = "UILabel"; text = "02-2762-0112 轉 2583~2588"; ObjectID = "Guo-dx-qce"; */
+"Guo-dx-qce.text" = "02-2762-0112 轉 2583~2588";
+
+/* Class = "UINavigationItem"; title = "我的票卷"; ObjectID = "IHU-Ot-DrV"; */
+"IHU-Ot-DrV.title" = "我的票卷";
+
+/* Class = "UILabel"; text = "02-8787-9309"; ObjectID = "ULO-Mn-d7v"; */
+"ULO-Mn-d7v.text" = "02-8787-9309";
+
+/* Class = "UINavigationItem"; title = "聯絡我們"; ObjectID = "V0P-dR-mhq"; */
+"V0P-dR-mhq.title" = "聯絡我們";
+
+/* Class = "UIButton"; normalTitle = "報名活動"; ObjectID = "WVW-Ma-2l6"; */
+"WVW-Ma-2l6.normalTitle" = "報名活動";
+
+/* Class = "UILabel"; text = "110台北市信義區松隆路327號8樓"; ObjectID = "XX5-YM-krS"; */
+"XX5-YM-krS.text" = "110台北市信義區松隆路327號8樓";
+
+/* Class = "UILabel"; text = "chunghwa@bliayad.org"; ObjectID = "am5-vB-RJH"; */
+"am5-vB-RJH.text" = "chunghwa@bliayad.org";
